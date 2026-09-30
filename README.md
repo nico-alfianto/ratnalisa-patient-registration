@@ -1,66 +1,683 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
-
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+    <a href="https://laravel.com" target="_blank">
+        <img src="https://ratnalisa-klinik.ifree.page/assets/img/ratnalisa-logo-full.png" width="100" alt="Ratnalisa Logo">
+    </a>
 </p>
 
-## About Laravel
+<h1 align="center">Ratnalisa Patient Registration System</h1>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<p align="center">
+    A web-based patient registration and clinic management system
+    developed using Laravel.
+</p>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+<p align="center">
+    <a href="https://laravel.com">
+        <img src="https://img.shields.io/badge/Laravel-10-FF2D20?style=flat-square&logo=laravel&logoColor=white" alt="Laravel 10">
+    </a>
+    <a href="https://www.php.net/">
+        <img src="https://img.shields.io/badge/PHP-8.1%2B-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP 8.1+">
+    </a>
+    <a href="https://www.mysql.com/">
+        <img src="https://img.shields.io/badge/MySQL-Database-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL">
+    </a>
+    <a href="https://vitejs.dev/">
+        <img src="https://img.shields.io/badge/Vite-5.0-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite 5.0">
+    </a>
+</p>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+<p align="center">
+    <a href="https://www.midtrans.com/">
+        <img src="https://img.shields.io/badge/Midtrans-Payment-00AEEF?style=flat-square" alt="Midtrans">
+    </a>
+    <a href="https://github.com/nico-alfianto/ratnalisa-patient-registration">
+        <img src="https://img.shields.io/github/repo-size/nico-alfianto/ratnalisa-patient-registration?style=flat-square" alt="Repository Size">
+    </a>
+</p>
 
-## Learning Laravel
+---
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## Live Demo
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+<p align="center">
+    <a href="https://ratnalisa-klinik.ifree.page/" target="_blank">
+        <img src="https://img.shields.io/badge/Live%20Demo-Ratnalisa%20Clinic-2ea44f?style=flat-square" alt="Live Demo">
+    </a>
+</p>
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+<p align="center">
+    <a href="https://ratnalisa-klinik.ifree.page/" target="_blank">
+        <strong>Visit Ratnalisa Patient Registration System</strong>
+    </a>
+</p>
 
-## Laravel Sponsors
+<p align="center">
+    <a href="https://ratnalisa-klinik.ifree.page/" target="_blank">
+        https://ratnalisa-klinik.ifree.page/
+    </a>
+</p>
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+> The system is deployed on a web hosting environment for demonstration and academic project purposes. The application is still under development, so some features may contain minor errors or limitations.
 
-### Premium Partners
+---
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+## About
 
-## Contributing
+**Ratnalisa Patient Registration System** is a web-based application developed for **Ratnalisa Laboratory Clinic and Anatomical Pathology**.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+The system is designed to support the digitalization of patient registration and clinic management processes, including medical service registration, examination management, service scheduling, invoice management, and online payment.
 
-## Code of Conduct
+This project was developed as a collaborative academic project during the **4th semester of the Information Systems program**.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+---
 
-## Security Vulnerabilities
+## Features
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+### Public
+
+* Home page
+* About page
+* Contact page
+* Medical services
+* Service details
+* Doctor information
+* Privacy Policy
+* Terms & Conditions
+
+### Patient
+
+* Patient registration
+* Login and logout
+* Patient dashboard
+* Patient profile management
+* Update personal information
+* Browse medical services
+* Medical examination registration
+* Edit examination registration
+* Examination history
+* Invoice list
+* Invoice details
+* Invoice PDF download
+* Online payment
+* Payment status handling
+* Midtrans payment integration
+
+### Administrator
+
+* Admin dashboard
+* Patient management
+* Service management
+* Doctor management
+* Specialty management
+* Examination management
+* Pending examination management
+* Completed examination management
+* Invoice management
+* Service schedule management
+* Religion management
+* Education management
+* Occupation management
+
+---
+
+## System Overview
+
+The system provides two main user roles:
+
+| Role              | Description                                                                                                              |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| **Patient**       | Register for examinations, manage personal information, view examination records, access invoices, and process payments. |
+| **Administrator** | Manage patients, doctors, services, schedules, examinations, invoices, and supporting master data.                       |
+
+---
+
+## Patient Registration Flow
+
+```text
+Patient
+   |
+   v
+Register / Login
+   |
+   v
+Browse Medical Services
+   |
+   v
+Select Medical Service
+   |
+   v
+Submit Examination Registration
+   |
+   v
+Create Payment
+   |
+   v
+Midtrans Payment
+   |
+   v
+Payment Confirmation
+   |
+   v
+Invoice
+```
+
+---
+
+## Administrator Workflow
+
+```text
+Administrator
+      |
+      v
+Admin Dashboard
+      |
+      +-------------------+
+      |                   |
+      v                   v
+Master Data          Operational Data
+      |                   |
+      +----+----+         +----+----+
+           |                   |
+        Doctors            Examinations
+        Services            Invoices
+        Specialties         Schedules
+        Patients
+        Education
+        Religion
+        Occupation
+```
+
+---
+
+## Technology Stack
+
+### Backend
+
+| Technology      | Version / Package |
+| --------------- | ----------------- |
+| PHP             | 8.1+              |
+| Laravel         | 10.x              |
+| Laravel Sanctum | 3.3               |
+| Guzzle          | 7.2               |
+| Laravel Tinker  | 2.8               |
+
+### Frontend & Build Tools
+
+| Technology          | Version / Package |
+| ------------------- | ----------------- |
+| HTML                | -                 |
+| CSS                 | -                 |
+| JavaScript          | -                 |
+| Vite                | 5.0               |
+| Laravel Vite Plugin | 1.0               |
+| Axios               | 1.6               |
+
+### Additional Packages
+
+| Package          | Purpose                       |
+| ---------------- | ----------------------------- |
+| Midtrans PHP SDK | Online payment integration    |
+| Laravel DOMPDF   | PDF invoice generation        |
+| PHPUnit          | Application testing           |
+| Laravel Pint     | Code formatting               |
+| Laravel Sail     | Local development environment |
+
+### Database
+
+| Technology         | Purpose                    |
+| ------------------ | -------------------------- |
+| MySQL              | Relational database        |
+| Eloquent ORM       | Database interaction       |
+| Laravel Migrations | Database schema management |
+
+---
+
+## Database Structure
+
+The application uses Laravel migrations to manage its relational database structure.
+
+### Main Entities
+
+```text
+Users
+ |
+ +-- Patients
+ |
+ +-- Medical Examinations
+ |       |
+ |       +-- Services
+ |       |
+ |       +-- Doctors
+ |       |
+ |       +-- Service Schedules
+ |
+ +-- Payments
+ |       |
+ |       +-- Invoices
+ |
+ +-- Supporting Master Data
+         |
+         +-- Specialties
+         +-- Religions
+         +-- Education
+         +-- Occupations
+```
+
+### Main Tables
+
+* `users`
+* `layanans`
+* `detail_layanans`
+* `layanan_details`
+* `pemeriksaans`
+* `pembayarans`
+* `invoices`
+* `dokters`
+* `spesialis`
+* `agamas`
+* `pendidikans`
+* `pekerjaans`
+* `jadwal_layanans`
+* `personal_access_tokens`
+
+---
+
+## Payment Integration
+
+The application integrates **Midtrans** for online payment processing.
+
+The general payment process is:
+
+1. Patient selects a medical service.
+2. Patient submits an examination registration.
+3. The system creates the related payment record.
+4. The application prepares a Midtrans transaction.
+5. Patient completes the payment through Midtrans.
+6. Midtrans sends the transaction result to the application.
+7. The application processes the payment status.
+8. The patient can access the related invoice.
+
+---
+
+## Invoice Management
+
+The application uses **Laravel DOMPDF** to generate downloadable PDF invoices.
+
+Patients can:
+
+* View invoice information.
+* Open invoice details.
+* Download invoices as PDF documents.
+
+Administrators can manage invoice records through the administrative dashboard.
+
+---
+
+## Authentication & Authorization
+
+The application implements authentication and role-based access control.
+
+### Authentication
+
+The system provides:
+
+* Patient registration
+* Login
+* Logout
+* Session-based authentication
+
+### Authorization
+
+Different routes and features are protected according to user roles.
+
+```text
+                    Authentication
+                          |
+              +-----------+-----------+
+              |                       |
+              v                       v
+           Patient                 Admin
+              |                       |
+       Patient Features        Admin Features
+```
+
+---
+
+## API
+
+The project includes Laravel API routing through:
+
+```text
+routes/api.php
+```
+
+The authenticated user endpoint is protected using Laravel Sanctum:
+
+```text
+GET /api/user
+```
+
+The main application functionality is handled through the web routes in:
+
+```text
+routes/web.php
+```
+
+---
+
+## Project Structure
+
+```text
+ratnalisa-patient-registration/
+│
+├── app/
+│   ├── Console/
+│   ├── Exceptions/
+│   ├── Http/
+│   │   ├── Controllers/
+│   │   ├── Middleware/
+│   │   └── Requests/
+│   ├── Models/
+│   └── Providers/
+│
+├── bootstrap/
+│
+├── config/
+│
+├── database/
+│   ├── factories/
+│   ├── migrations/
+│   └── seeders/
+│
+├── public/
+│
+├── resources/
+│   ├── css/
+│   ├── js/
+│   └── views/
+│
+├── routes/
+│   ├── api.php
+│   ├── console.php
+│   └── web.php
+│
+├── storage/
+│
+├── tests/
+│
+├── .env.example
+├── artisan
+├── composer.json
+├── composer.lock
+├── package.json
+├── package-lock.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## Installation
+
+### Requirements
+
+Make sure the following software is installed:
+
+* PHP 8.1 or later
+* Composer
+* Node.js and npm
+* MySQL
+* Git
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/nico-alfianto/ratnalisa-patient-registration.git
+```
+
+```bash
+cd ratnalisa-patient-registration
+```
+
+### 2. Install PHP Dependencies
+
+```bash
+composer install
+```
+
+### 3. Install Frontend Dependencies
+
+```bash
+npm install
+```
+
+### 4. Configure Environment
+
+Create a `.env` file from `.env.example`.
+
+#### Windows PowerShell
+
+```powershell
+Copy-Item .env.example .env
+```
+
+#### Linux / macOS
+
+```bash
+cp .env.example .env
+```
+
+Configure the database connection in `.env`.
+
+Example:
+
+```env
+APP_NAME=Ratnalisa
+APP_ENV=local
+APP_KEY=
+APP_DEBUG=true
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=your_database
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+Configure the required Midtrans credentials according to your local environment.
+
+> Never commit the `.env` file or any credentials to the repository.
+
+### 5. Generate Application Key
+
+```bash
+php artisan key:generate
+```
+
+### 6. Run Database Migrations
+
+```bash
+php artisan migrate
+```
+
+### 7. Start Laravel Development Server
+
+```bash
+php artisan serve
+```
+
+### 8. Start Vite
+
+Open another terminal and run:
+
+```bash
+npm run dev
+```
+
+The application will be available at:
+
+```text
+http://127.0.0.1:8000
+```
+
+---
+
+## Development Commands
+
+### Run Laravel Server
+
+```bash
+php artisan serve
+```
+
+### Run Vite
+
+```bash
+npm run dev
+```
+
+### Build Frontend Assets
+
+```bash
+npm run build
+```
+
+### Run Migrations
+
+```bash
+php artisan migrate
+```
+
+### Clear Application Cache
+
+```bash
+php artisan optimize:clear
+```
+
+### Run Tests
+
+```bash
+php artisan test
+```
+
+---
+
+## Project Team
+
+<p align="center">
+    <strong>Ratnalisa Patient Registration System</strong>
+</p>
+
+| Name                          | Role                                   |
+| ----------------------------- | -------------------------------------- |
+| **Nico Alfianto**             | Project Manager / Team Leader          |
+| **Awaludin Al Ayubi**         | UI/UX Designer                         |
+| **Marcho Dominggus Timisela** | Frontend Developer & Database Designer |
+| **Ikhsan Basuki**             | Backend Developer                      |
+| **Nethar Balawan M.**         | Documentation                          |
+
+### Team Responsibilities
+
+#### Nico Alfianto — Project Manager / Team Leader
+
+Responsible for project coordination, system planning, task distribution, progress monitoring, and overall project direction.
+
+#### Awaludin Al Ayubi — UI/UX Designer
+
+Responsible for user interface and user experience design, including interface structure, visual design, and usability considerations.
+
+#### Marcho Dominggus Timisela — Frontend Developer & Database Designer
+
+Responsible for frontend implementation and database structure and design.
+
+#### Ikhsan Basuki — Backend Developer
+
+Responsible for backend development, application logic, database interaction, and core system functionality.
+
+#### Nethar Balawan M. — Documentation
+
+Responsible for project documentation, development records, and supporting documentation.
+
+---
+
+## Academic Context
+
+This project was developed as a collaborative academic project during the **4th semester** of the Information Systems program.
+
+### Courses
+
+* **Information Systems Design**
+* **Information Systems Modeling**
+* **Web Programming 3**
+
+### Project Focus
+
+The project applies concepts related to:
+
+* Information systems analysis
+* System design
+* Database modeling
+* User interface and user experience
+* Web application development
+* Role-based access control
+* Patient registration
+* Online payment integration
+* Project management
+* Technical documentation
+
+---
+
+## Security
+
+Sensitive configuration should not be committed to the repository.
+
+The following information must remain private:
+
+```text
+.env
+Database credentials
+API keys
+Midtrans credentials
+Application secrets
+Production configuration
+```
+
+Use `.env.example` as the configuration template for development.
+
+---
+
+## Project Status
+
+<p align="center">
+    <strong>Academic Project</strong>
+</p>
+
+This project was developed as a collaborative academic project for the Information Systems program.
+
+The application is currently deployed as a live demonstration and may still contain minor errors or limitations in some features.
+
+---
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+This project was developed for **academic and educational purposes**.
+
+---
+
+## Author
+
+<p align="center">
+    <strong>Nico Alfianto</strong>
+</p>
+
+<p align="center">
+    Information Systems Student<br>
+    Project Manager / Team Leader
+</p>
+
+<p align="center">
+    <a href="https://github.com/nico-alfianto">
+        GitHub Profile
+    </a>
+</p>
