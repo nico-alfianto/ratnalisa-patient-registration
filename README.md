@@ -71,6 +71,26 @@ This project was developed as a collaborative academic project during the **4th 
 
 ---
 
+## Project Report
+
+The complete project report and documentation are available in the following document:
+
+<p align="center">
+    <a href="https://docs.google.com/document/d/1bXA1tiZzWcYM4Tkzs6UBwy3yt8_7eP7R/edit?usp=sharing" target="_blank">
+        <img src="https://img.shields.io/badge/View%20Project%20Report-Google%20Docs-4285F4?style=flat-square&logo=googledocs&logoColor=white" alt="View Project Report">
+    </a>
+</p>
+
+<p align="center">
+    <a href="https://docs.google.com/document/d/1bXA1tiZzWcYM4Tkzs6UBwy3yt8_7eP7R/edit?usp=sharing" target="_blank">
+        <strong>View Ratnalisa Project Report</strong>
+    </a>
+</p>
+
+The document contains the project background, system analysis, design, development process, implementation, testing, and other project documentation.
+
+---
+
 ## Features
 
 ### Public
